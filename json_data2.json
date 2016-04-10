@@ -54,8 +54,6 @@
 
                 {
 
-                    "acca_enabled": true,
-
                     "addressbook_checked": true,
 
                     "agent_contacts": true,
@@ -102,7 +100,7 @@
 
                 {
 
-                    "status": 12,
+                    "status": 10,
 
                     "status_set":
 
@@ -126,7 +124,7 @@
 
                         "visibility": "hidden",
 
-                        "country": "ru",
+                        "country": true,
 
                         "mobile": true,
 
@@ -170,7 +168,7 @@
 
                             "folders":
 
-                                ["0", "1", "7"],
+                                ["0", "1"],
 
                             "conditions":
 
@@ -182,7 +180,7 @@
 
                                             "from": 10,
 
-                                            "to": 21
+                                            "to": 20
 
                                         },
 
@@ -238,6 +236,16 @@
 
                         "active": true
 
+                    },
+
+                    {
+
+                        "sign": "--\nС уважением,\nФилип Тестовый",
+
+                        "name": "Филип Тестовый",
+
+                        "active": true
+
                     }
 
                 ],
@@ -256,13 +264,17 @@
 
                     "sort":
 
-                        {
+                        [
 
-                            "type": "priority",
+                            {
 
-                            "order": "desc"
+                                "type": "priority",
 
-                        },
+                                "order": "desc"
+
+                            }
+
+                        ],
 
                     "autoadd": true
 
@@ -318,7 +330,7 @@
 
                                 {
 
-                                    "text": "__BODY_PLACEHOLDER__",
+                                    "text_q": "__BODY_PLACEHOLDER__",
 
                                     "text_quoted": "__BODY_QUOTED_PLACEHOLDER__",
 
@@ -358,7 +370,7 @@
 
                 {
 
-                    "day": 7,
+                    "day": null,
 
                     "month": 2,
 
@@ -388,7 +400,7 @@
 
                         {
 
-                            "account": true,
+                            "account": false,
 
                             "status": true,
 
@@ -426,6 +438,8 @@
 
                             "from": 123456789,
 
+                            "extra": 45,
+
                             "to": 987654321
 
                         },
@@ -438,7 +452,7 @@
 
                             "from": 28000,
 
-                            "to": 75600
+                            "to": 7600
 
                         }
 
